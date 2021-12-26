@@ -1,6 +1,5 @@
 name: python-app
 
-on: workflow_dispatch
 on:
   push:
     branches: [master]
