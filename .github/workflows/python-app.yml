@@ -34,4 +34,3 @@ jobs:
         run: |
           pip install coverage
           coverage run pytest
-          coverage html
