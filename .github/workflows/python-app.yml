@@ -30,3 +30,8 @@ jobs:
       - name: Test
         run: |
           python test.py
+      - name: Coverage
+        run: |
+          pip install coverage
+          coverage run pytest
+          coverage html
